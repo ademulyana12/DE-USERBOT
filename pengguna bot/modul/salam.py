@@ -33,7 +33,7 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^K(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("grup ampas")
+    await typew.edit("grup ampasss")
 
 
 @register(outgoing=True, pattern='^.k(?: |$)(.*)')
